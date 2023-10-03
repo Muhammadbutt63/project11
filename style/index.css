@@ -3,16 +3,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-  
 body{
     margin: 0;
     padding: 0;
     box-sizing: 0;
     font-family: 'poppins',sans-serif;
     font-weight: 500;
-    
-    
-
 }
 body{
     background-color: black;
@@ -102,87 +98,11 @@ body{
     font-weight: 600;
 }
 
+
 #about{
     background-color: black;
     width: 100%;
 }
-
-.about .text-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto;
-}
-
-.text-2 h6{
-color:rgb(19, 160, 19) ;
-letter-spacing: 2px;
-font-weight: 800;
-font-size: 16px;
-}
-
-.text-2 h3{
-    color:white ;
-    letter-spacing: 1px;
-    font-weight: 900;
-    font-size: 30px;
-    }
-    .text-2 p{
-        color:white ;
-        letter-spacing: 1px;
-        font-weight: 800;
-        font-size: 16px;
-        }
-
-        .text-2 a{
-            color: white;
-            background-color: rgb(26, 134, 26);
-            padding: 6px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            text-decoration: none;
-        }
-
-        .text-2 a:hover{
-            color: black;
-            background-color: black;
-            font-weight: 600;
-        } 
-        .text-3 h6{
-            letter-spacing: 2px;
-            font-weight: 1000;
-            font-size: 25px;
-            }
-            
-            .text-3 h3{
-                color:black ;
-                letter-spacing: 1px;
-                font-weight: 900;
-                font-size: 30px;
-                }
-                .text-3 p{
-                    color:black ;
-                    letter-spacing: 1px;
-                    font-weight: 800;
-                    font-size: 16px;
-                    }
-            
-                    .text-3 a{
-                        color:black;
-                        background-color: yellow;
-                        padding: 6px 20px;
-                        border-radius: 30px;
-                        font-weight: 600;
-                        text-decoration: none;
-                    }
-            
-                    .text-3 a:hover{
-                        color:white;
-                        background-color:black;
-                        font-weight: 600;
-                    } 
-
 
                     #services{
                         height: 100vh;
@@ -247,22 +167,6 @@ font-size: 16px;
                             font-size: 16px;
                             
                             }
-                    
-                            .text-4 a{
-                                color:black;
-                                background-color: rgb(26, 134, 26);
-                                padding: 6px 20px;
-                              
-                                border-radius: 30px;
-                                font-weight: 600;
-                                text-decoration: none;
-                            }
-                    
-                            .text-4 a:hover{
-                                color:white;
-                                background-color:black;
-                                font-weight: 600;
-                            } 
 
                             .icons a{
                                 text-decoration: none;
@@ -372,10 +276,6 @@ img{ width:100%; height: 100%;}
 }
 
 
-.ratings i{
-    color:blue;
-}
-
 .team4 {
     font-family: "Montserrat", sans-serif;
       color: #8d97ad;
@@ -412,7 +312,7 @@ img{ width:100%; height: 100%;}
   .team4 ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: #316ce8;
+      color: yellow;
   }
 
   .submit-button:hover{
@@ -470,10 +370,12 @@ color: white;
    background-color: white;
 }
 
-
-
-
- 
+.ic1:hover{
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+      color: yellow;
+    
+}
   
   #myBtn {
     display: none; /* Hidden by default */
@@ -490,8 +392,6 @@ color: white;
     font-size: 18px; /* Increase font size */
   }
   
-
-
   .whatsapp-picture{
     height: 70px;
     width: 70px;
