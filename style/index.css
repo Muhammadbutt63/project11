@@ -23,12 +23,9 @@ body{
     font-size: 1.1rem;
     
 }
-.nav-item{
-	padding-right: 20px;
-}
 
 .nav-link:hover{
-    color: yellow;
+    color: rgb(255, 63, 95);
 }
 
 .btn{
@@ -38,7 +35,7 @@ body{
 .btn:hover{
     
     background-color: white;
-    color: yellow;
+    color: rgb(255, 63, 95);
     font-weight: 600;
 
 }
@@ -86,7 +83,7 @@ body{
 }
 
 .main-heading a{
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
@@ -143,9 +140,7 @@ body{
                       
                     }
 
-                    .text-custom{
-                        color: yellow !important;
-                        }
+
                 
                 #teams{
                     height: 100vh;
@@ -312,7 +307,7 @@ img{ width:100%; height: 100%;}
   .team4 ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: yellow;
+      color: rgb(255, 63, 95);
   }
 
   .submit-button:hover{
@@ -333,7 +328,7 @@ color: white;
 .toggler-icon{
     width: 30px;
     height: 3px;
-    background-color: yellow;
+    background-color: rgb(255, 63, 95);
     display: block;
     transition: all 0.2s;
 
@@ -373,7 +368,7 @@ color: white;
 .ic1:hover{
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
-      color: yellow;
+      color: rgb(255, 63, 95);
     
 }
   
